@@ -1,11 +1,10 @@
 package com.otectus.plantfiber.registry;
 
 import com.otectus.plantfiber.PlantFiberMod;
+import com.otectus.plantfiber.block.GrassBedBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.BedBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -32,8 +31,8 @@ public final class ModBlocks {
             });
 
     public static final RegistryObject<Block> GRASS_BED = BLOCKS.register("grass_bed",
-            () -> new BedBlock(DyeColor.GREEN,
-                    BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).strength(0.2f).sound(SoundType.WOOD).noOcclusion()));
+            () -> new GrassBedBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT).strength(0.2f).sound(SoundType.GRASS).noOcclusion()));
 
     private ModBlocks() {
     }
