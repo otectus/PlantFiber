@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "plantfiber:grass_fiber_block" }
+  },
+  "result": {
+    "item": "plantfiber:grass_chestplate",
+    "count": 1
+  }
+}
+

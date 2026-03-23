@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "PPP"
+  ],
+  "key": {
+    "G": { "item": "plantfiber:grass_fiber_block" },
+    "P": { "tag": "minecraft:planks" }
+  },
+  "result": {
+    "item": "plantfiber:grass_bed",
+    "count": 1
+  }
+}
+

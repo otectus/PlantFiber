@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="plantfiber"
+version="1.0.0"
+displayName="Plant Fiber + Grass Tier"
+authors="Otectus"
+description='''
+Adds Plant Fiber drops, healing items, grass-tier blocks, and grass armor.
+'''
+
+[[dependencies.plantfiber]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.plantfiber]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+

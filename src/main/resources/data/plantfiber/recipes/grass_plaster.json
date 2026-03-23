@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "plantfiber:bandage_plants" },
+    { "tag": "plantfiber:bandage_plants" },
+    { "tag": "plantfiber:bandage_plants" },
+    { "item": "plantfiber:plant_fiber" },
+    { "item": "plantfiber:plant_fiber" }
+  ],
+  "result": {
+    "item": "plantfiber:grass_plaster",
+    "count": 1
+  }
+}
+

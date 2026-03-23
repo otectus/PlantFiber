@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "G G",
+    "G G"
+  ],
+  "key": {
+    "G": { "item": "plantfiber:grass_fiber_block" }
+  },
+  "result": {
+    "item": "plantfiber:grass_leggings",
+    "count": 1
+  }
+}
+

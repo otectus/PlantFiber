@@ -1,0 +1,23 @@
+# Build
+build/
+.gradle/
+out/
+
+# Runtime
+run/
+logs/
+
+# IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.blackboxcli/

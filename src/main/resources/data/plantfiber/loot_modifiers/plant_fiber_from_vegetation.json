@@ -1,0 +1,9 @@
+{
+  "type": "plantfiber:plant_fiber_from_vegetation",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": ".*:blocks/.*"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "item.plantfiber.plant_fiber": "Plant Fiber",
+  "item.plantfiber.grass_bandage": "Grass Bandage",
+  "item.plantfiber.grass_plaster": "Grass Plaster",
+  "block.plantfiber.grass_fiber_block": "Grass Fiber Block",
+  "block.plantfiber.grass_bed": "Grass Bed",
+  "item.plantfiber.grass_helmet": "Grass Helmet",
+  "item.plantfiber.grass_chestplate": "Grass Chestplate",
+  "item.plantfiber.grass_leggings": "Grass Leggings",
+  "item.plantfiber.grass_boots": "Grass Boots",
+  "itemGroup.plantfiber": "Plant Fiber",
+  "tooltip.plantfiber.regen": "Regeneration %s for %ss",
+  "tooltip.plantfiber.cooldown": "Cooldown: %ss"
+}
+
